@@ -5,7 +5,7 @@
     margin: 0;
     font-family: Lexend;
     font-weight: 800;
-    color: white;
+    color: black;
     overflow-x: hidden;
 }
 
@@ -32,7 +32,6 @@
 
 .titleimage{
     text-align: center;
-    background-image: url(images/Arloub20(1)(1).jpg);
     background-position-y: -500px;
     background-size: 75%;
     height: 400px;
@@ -44,7 +43,7 @@
 }
 
 .maincontent{
-    background-color: #21273c;
+    background-color: #00FFD8;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -61,12 +60,12 @@
 
 .margin{
     height: 100px;
-    background-color: #21273c;
+    background-color: #020202;
 }
 
 .smallmargin{
     height: 50px;
-    background-color: #21273c;
+    background-color: #00FFD8;
 }
 
 .griddiv{
@@ -80,7 +79,7 @@
 }
 
 button{
-    background: #414d75;
+    background: #020202;
     border-radius: 50px;
     margin: 30px;
     border: 5px solid #1a1e2f;
@@ -90,7 +89,7 @@ button{
 .app{
     height: 200px;
     width: 200px;
-    background-color: #414d75;
+    background-color: #00FFD8;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -106,7 +105,7 @@ button{
 }
 
 .footer{
-    background-color: #21273c;
+    background-color: #00FFD8;
     padding: 15px;
     color: #414d75;
     text-align: center;
