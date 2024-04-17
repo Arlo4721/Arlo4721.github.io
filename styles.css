@@ -15,7 +15,7 @@
 }
 
 .dashedhr{
-    border: 1px dashed #21273c;
+    border: 1px dashed #000000;
     background-color: transparent;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .maincontent{
-    background-color: #00FFD8;
+    background-color: #000000;
     justify-content: center;
     text-align: center;
     align-items: center;
