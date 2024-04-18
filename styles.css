@@ -30,7 +30,17 @@
     font-size: 24px;
 }
 
------
+.titleimage{
+    text-align: center;
+    background-position-y: -500px;
+    background-size: 75%;
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1000;
+}
 
 .maincontent{
     background-color: #6E6464;
