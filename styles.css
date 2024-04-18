@@ -29,7 +29,6 @@
     margin: 20px;
     font-size: 24px;
 }
-
 .titleimage{
     text-align: center;
     background-position-y: -500px;
@@ -41,7 +40,6 @@
     justify-content: center;
     z-index: -1000;
 }
-
 .maincontent{
     background-color: #6E6464;
     justify-content: center;
