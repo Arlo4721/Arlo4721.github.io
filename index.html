@@ -6,76 +6,100 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div style="width: 100vw;">
-            <a href="https://fortnitebotdfddf.github.io">
-                <div style="float: left; width: 10vw;">
-                    <p class="bartext">Arlo UB</p>
-                </div>
-            </a>
-            <div style="right: 50%; text-wrap: nowrap; position: absolute;">
-                <p style="margin-right: auto; margin-left: auto; padding: 0;" class="bartext">Apps</p>
+    <div style="width: 100vw;">
+        <a onclick="switchtourl('main')">
+            <div style="float: left; width: 10vw;">
+                <p class="bartext">Universal UB</p>
             </div>
-            <div onclick="cloaksite('https://fortnitebotdfddf.github.io')" style="float: right; text-align: right; text-wrap: nowrap; transform: translateX(-300px);">
-                <p class="bartext">Open in About:Blank</p>
-            </div>
+        </a>
+        <div onclick="cloaksite('main')" style="float: right; text-align: right; text-wrap: nowrap; transform: translateX(-300px);">
+            <p class="bartext">Open in About:Blank</p>
         </div>
-        <div class="titleimage">
-        <h1 class="title">Arlo UB</h1>
+    </div>
+    <div class="titleimage">
+        <h1 class="title">Universal UB</h1>
+        <br>
+        <h2 style="position: absolute; transform: translateY(75px); width: 700px;"><span id="randomtext"></span></h2>
+    </div>
+    <hr class="dashedhr">
+    <div class="maincontent">
+        <h1 class="padding">Passion project by a goofy middleschooler who hates school blocks :)</h1>
+        <hr class="lighthr">
+        <h2 class="padding">New message to school admin: Hi, nice job taking down the site 😉 not good enough though, try harder ♡</h2>
+        <hr class="lighthr">
+        <h1 class="padding">Important!</h1>
+        <h2 onclick="openurl('https://uniub.github.io')" class="padding">Use uniub.github.io before it gets blocked!</h2>
+        <a href="/downloads/UniversalUBLoader.html"><h2 class="padding">If site gets blocked download this file!</h2></a>
+        <h2 onclick="openurl('https://discord.gg/pAJVKRK5rZ')" class="padding">Discord server (click)</h2>
+        <hr class="lighthr">
+        <h1 class="padding">Update Log</h1> 
+        <h2 class="padding">Update: v1.11 Small Update!</h2> 
+        <h2 class="padding">bug fixes</h2>
+        <h2 class="padding">3 new games</h2>
+        <h2 class="padding">kioskv4</h2>
+    </div>
+    <hr class="dashedhr">
+    <div class="margin"></div>
+    <hr class="dashedhr">
+    <div class="maincontent">
+        <h1 class="padding">Main</h1>
+        <hr class="lighthr">
+        <div class="griddiv">
+            <div onclick="switchtourl('/games')" class="app">Games</div>
+            <div onclick="switchtourl('/apps')" class="app">Apps [WIP]</div>
+            <div onclick="switchtourl('/emulatorsmain')" class="app">Emulators [New!]</div>
+            <div onclick="switchtourl('/blog')" class="app">Blog</div>
+            <div onclick="switchtourl('main')" class="app"></div>
         </div>
-        <hr class="dashedhr">
-        <div class="maincontent">
-            <h1 class="padding">Passion project by a goofy middleschooler who hates school blocks :)</h1>
-            <hr class="lighthr">
-            <h2 class="padding">If the site isn't updating please press Ctrl + Shift + Backspace and clear your cache :D</h2>
-            <hr class="lighthr">
-            <h2 class="padding">hi school admin, if you're seeing this yay the site is popular :D, but also I can put this site back up in less than 20 minutes ♡</h2> 
+    </div>
+    <hr class="dashedhr">
+    <div class="margin"></div>
+    <hr class="dashedhr">
+    <div class="maincontent">
+        <h1 class="padding">Unblockers</h1>
+        <hr class="lighthr">
+        <div class="griddiv">
+            <div onclick="switchtourl('/andpdf')" class="app">@PDF OP Unblocker</div>
+            <div onclick="switchtourl('/sitecloaker')" class="app">Cloak any website</div>
+            <div onclick="switchtourl('/dragexploit')" class="app">Drag Exploit</div>
+            <div onclick="switchtourl('main')" class="app"></div>
+            <div onclick="switchtourl('main')" class="app"></div>
         </div>
-        <hr class="dashedhr">
-        <div class="margin"></div>
-        <hr class="dashedhr">
-        <div class="maincontent">
-            <h1 class="padding">Methods / Unblockers</h1>
-            <hr class="lighthr">
-            <div class="griddiv">
-                <div onclick="openurl('https://fortnitebotdfddf.github.io/goguardianabb')" class="app">Prevent Goguardian from seeing about:blank URLs [GUIDE]</div>
-                <div onclick="openurl('https://fortnitebotdfddf.github.io/andpdf')" class="app">@PDF OP Unblocker</div>
-                <div onclick="openurl('https://fortnitebotdfddf.github.io/pdf')" class="app">PDF OP Unblocker [GUIDE]</div>
-                <div onclick="openurl('Arlo4721.github.io/tree/main/gamefiles/1v1lol')" class="app">Temp Disable Securly [WIP]</div>
-                <div onclick="openurl('google.com')" class="app">Temp Disable GoGuardian [WIP]</div>
-                <div onclick="openurl('google.com')" class="app">test [WIP]</div>
-                <div onclick="openurl('Arlo4721.github.io/gamefiles')" class="app">test games [WIP]</div>
-            </div>
+    </div>
+    <hr class="dashedhr">
+    <div class="margin"></div>
+    <hr class="dashedhr">
+    <div class="maincontent">
+        <h1 class="padding">Guides</h1>
+        <hr class="lighthr">
+        <div class="griddiv">
+            <div onclick="switchtourl('/pdf')" class="app">PDF OP Unblocker [GUIDE]</div>
+            <div onclick="switchtourl('/disablesecurly')" class="app">Temp Disable Securly [GUIDE]</div>
+            <div onclick="switchtourl('/disablegoguardian')" class="app">Temp Disable GoGuardian [GUIDE]</div>
+            <div onclick="switchtourl('/caudns')" class="app">CauDNS Unblock Everything* [GUIDE]</div>
+            <div onclick="switchtourl('/goguardianabb')" class="app">Prevent Goguardian from seeing about:blank URLs [GUIDE]</div>
+            <div onclick="switchtourl('/kioskv3')" class="app">KioskV3 Unblock Everything GUIDE]</div>
+            <div onclick="switchtourl('/kioskv4')" class="app">KioskV4 Unblock Everything GUIDE]</div>
         </div>
-        <hr class="dashedhr">
+    </div>
+    <hr class="dashedhr">
     </body>
     <div class="footer">
         <div class="smallmargin"></div>
-        <a style="text-decoration: none; color: #414d75;" href="https://www.github.com/universalub/universalub.github.io"><p style="color: #414d75;">Github </a><a style="text-decoration: none;" href="https://fortnitebotdfddf.github.io/terms"><span style="color: #414d75;"> Terms</span></a></p>
+        <a style="text-decoration: none; color: #414d75;" onclick="openurl('https://www.github.com/' + currentname)"><p style="color: #414d75;"> Github </a><a style="text-decoration: none;" onclick="switchtourl('/terms')"><span style="color: #414d75;"> Terms </span></a></a><a style="text-decoration: none;" onclick="switchtourl('/about')"><span style="color: #414d75;"> About </span></a></a><a style="text-decoration: none;" onclick="switchtourl('/credits')"><span style="color: #414d75;"> Credits </span></a></p>
         <div class="smallmargin"></div>
     </div>
-    <script src="aboutblank.js"></script>
     <script>
-        window.alert("Hey, dont get this blocked")
-    </script>
-</html>
-<!DOCTYPE html>
+        function pagesecurity(baseURL) {
+            var currentURL = window.location.href;
+            if (currentURL.startsWith(baseURL)) {
+                return;
+            } else {
+                document.body.innerHTML = '<p style="color: black; font-family: arial; font-weight: 400; font-size: 32px;">[WARNING] This page is not being hosted on its original location, please go to <a style="color: black; font-family: arial; font-weight: 400; font-size: 32px;" href="http://' + currentname + '.github.io" target="_blank">universalub</a> to visit the original site.</p>';
+            }
+        }
 
-        <hr class="dashedhr">
-        <div class="margin"></div>
-        <hr class="dashedhr">
-        <div class="maincontent">
-            <h1 class="padding">Methods / Unblockers</h1>
-            <hr class="lighthr">
-            <div class="griddiv">
-                <div onclick="openurl('https://forms.gle/cjN6v7g5bPq4SX4r7')" class="app">go here to buy your own site</div>
-                <div class="app"></div>
-                <div class="app"></div>
-                <div class="app"></div>
-                <div class="app"></div>
-                <div class="app"></div>
-            </div>
-        </div>
-        <hr class="dashedhr">
-    </body>
+        pagesecurity('https://' + currentname + '.github.io/');
+    </script>
     <script src="aboutblank.js"></script>
 </html>
